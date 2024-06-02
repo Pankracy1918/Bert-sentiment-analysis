@@ -27,3 +27,33 @@ Accuracy:2957/3570
 
 Class: 5
 Accuracy:927/1131
+
+
+
+The second sentiment fine tuning file is a file with 5 epochs training, but with slightly diffrent dataset. In order to balance the dataset, provide a faster training and better performance I have divided dataset into equaal parts, which resulted in only 3,5 hours for one epoch.
+
+
+fifth epoch resulted in:
+F1 score 0.9357
+
+Training loss: 0.2375
+
+Validation loss: 0.2609
+
+Class: 0
+Accuracy:2079/2246
+
+Class: 1
+Accuracy:1999/2246
+
+Class: 2
+Accuracy:2218/2246
+
+Class: 3
+Accuracy:2093/2246
+
+Class: 4
+Accuracy:1992/2246
+
+Class: 5
+Accuracy:2231/2245
